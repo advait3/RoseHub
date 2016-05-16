@@ -1,3 +1,48 @@
 #greenHeader{
     color: #005A2D;
 }
+
+#mission{
+    color: gray;
+}
+
+.verticalLine {
+    border-left: medium solid gray;
+
+}
+
+#missioncontent {
+    margin-left: 20px;
+}
+
+#focuscontent {
+    margin-left: 20px;
+}
+
+.container{
+    width: 950px;
+}
+
+#footer{
+    font-size: 90%;
+    padding-top: 10px;
+}
+
+#images{
+    float: left;
+}
+
+#YearPageContent{
+    padding-top: 20px;
+    font-family: Calibri;
+
+}
+
+#left, #center {
+    width: 33%;
+}
+
+#right {
+    width: auto;
+
+}
