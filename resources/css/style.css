@@ -1,0 +1,22 @@
+#greenHeader{
+    color: #005A2D;
+}
+
+.background-handshake{
+    background: url('../img/hand.jpg');
+    background-repeat:no-repeat;
+}
+.fore-color-yellow{
+    color:#ffcc00;
+}
+.fore-color-white{
+ color:white;
+}
+.text-size-high{
+    color:white;
+    font-size: 80px;
+}
+.center-div{
+    width: 60%;
+    margin: 0 auto;
+}
