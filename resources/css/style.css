@@ -12,9 +12,9 @@
 .fore-color-white{
  color:white;
 }
-.text-size-high{
-    color:white;
+.text-size-big{
     font-size: 80px;
+    text-align: right;
 }
 .center-div{
     width: 60%;
@@ -75,8 +75,9 @@
     margin-top: 20px;
 }
 
-#insideunccharlottebody{
-    background-color: #786D68;
+
+.insideunccharlotte-body{
+    background-color: #786D68 !important;
 }
 
 #insideunccharlotteheader{
@@ -100,7 +101,27 @@
     color: #FCB828;
 }
 
-.middlecontent2{
+.middlecontent2 {
     margin-top: 43px;
     color: #FCB828;
+}
+.margin-left{
+    margin-left: 20px;
+}
+.text-size-medium{
+    font-size: 26px;
+}
+.text-size-small{
+    font-size: 15px;
+}
+.margin-top{
+    margin-top: 14px;
+}
+
+.tab {
+    display:none;
+}
+
+.tab.active {
+    display:block;
 }
