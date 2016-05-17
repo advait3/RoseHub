@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Case</title>
+    <title>Rose-Hub</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--<script src="resources/javascript/test.js"></script>-->
 </head>
 <body>
+<script>
+    $(".nav li").on("click", function() {
+        $(".nav li").removeClass("active");
+        $(this).addClass("active");
+    });
+</script>
 
 
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
+    <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">RoseHub</a>
         </div>
@@ -27,12 +34,17 @@
 </nav>
 
 <div class="container">
-    <div id="greenHeader">
-        <h1>"The RoseHub is the only NSF I/UCRC focused on Robotic Technologies for Human Safety."</h1></div>
-    <div id="mission">
-        <p>&nbsp;</p>
-        <div style="width: 100%;">
-            <div style="float:left; width: 45%">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="greenHeader">
+                    <h2>"The RoseHub is the only NSF I/UCRC focused on Robotic Technologies for Human Safety."</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
                 <div class="verticalLine">
                     <div id="missioncontent">
                         <h4>OUR MISSION</h4>
@@ -40,51 +52,50 @@
                             research on
                             computation-driven robotic and sensor systems,augmented by data analysis to improve the
                             safety,
-                            capability and well-being of humans.</p>
+                            capability and well-being of humans.
+                        </p>
                     </div>
                 </div>
             </div>
 
 
-            <div style="float:right; width: 45%">
+            <div class="col-sm-6">
                 <div class="verticalLine">
                     <div id="focuscontent">
                         <h4>OUR FOCUS</h4>
-                        <p>
-                            Research projects at UNC Charlotte are member-driven, focused on solving member industry
+                        <p> Research projects at UNC Charlotte are member-driven, focused on solving member industry
                             challenges and accelerating technology innovation of bold industry initiatives related to
                             Safety, Security and Rescue of humans in health care, manufacturing and material
-                            handling.</p>
+                            handling.
+                        </p>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
 
-        <div id="images">
-            <img src="NSFLogo.PNG" height="42" width="52">
-            <img src="RoseHubLogo.PNG" height="42" width="82">
+        <div class="topbuffer"></div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="resources/img/NSFLogo.PNG" height="42" width="52">
+                <img src="resources/img/RoseHubLogo.PNG" height="42" width="82">
+            </div>
         </div>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p id="footer">The NSF's I/UCRC is a research partnership model for a consortium of universities and industrial
-            govenrment partners to conduct relevant reseacrh in an emerging field. Industry/Govenrment partners
-            contribute to the center/site as Members or Affiliates. For more information and to see a complete list,
-            visit <a href="http://www.eng.nsf.gov/iucrc/directory/start.htm">http://www.eng.nsf.gov/iucrc/directory/start.htm</a>
-        </p>
-    </footer>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <p id="footercontent">The NSF's I/UCRC is a research partnership model for a consortium of universities
+                    and
+                    industrial govenrment partners to conduct relevant reseacrh in an emerging field.
+                    Industry/Govenrment partners
+                    contribute to the center/site as Members or Affiliates. For more information and to see a complete
+                    list,
+                    visit <a href="http://www.eng.nsf.gov/iucrc/directory/start.htm">http://www.eng.nsf.gov/iucrc/directory/start.htm</a>
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>

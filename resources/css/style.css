@@ -20,3 +20,61 @@
     width: 60%;
     margin: 0 auto;
 }
+
+#greenHeader{
+    color: #005A2D;
+    margin-bottom: 25px;
+}
+
+#mission{
+    color: gray;
+}
+
+.verticalLine {
+    border-left: medium solid gray;
+    margin-right: 20px;
+
+}
+
+#missioncontent {
+    margin-left: 20px;
+}
+
+#focuscontent {
+    margin-left: 20px;
+}
+
+.container{
+    width: 950px;
+}
+#footercontent{
+    font-size: 90%;
+    margin-top: 20px;
+}
+
+.yearpagecontent{
+
+    font-family: "Century Gothic";
+
+}
+
+#left, #center {
+    width: 33%;
+}
+
+#right {
+    width: auto;
+
+}
+
+.topbuffer{
+    margin-top: 150px;
+}
+
+.topbuffersmall{
+    margin-top: 20px;
+}
+
+#insideunccharlottebody{
+    background: url("https://www.flickr.com/photos/stakeyourclaim/6254719895/in/album-72157624615241082/");
+}

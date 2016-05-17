@@ -2,22 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <title>Rose-Hub</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-            <link rel="stylesheet" href="style.css">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-            <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rose-Hub</title>
+    <html lang="en">
+    <head>
+        <title>Rose-Hub</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+       <!-- <script src="resources/javascript/test.js"></script>-->
+    </head>
 <body>
+<script>
+    $(".nav li").on("click", function() {
+        $(".nav li").removeClass("active");
+        $(this).addClass("active");
+    });
+</script>
 
 
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
+    <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">RoseHub</a>
         </div>
@@ -31,31 +40,43 @@
 </nav>
 
 <div class="container">
-    <div id="greenHeader">
-        <h2>A Year In The Life of RoseHub</h2></div>
-        <img src="Year.PNG" height="400px" width="950px">
-    <div id="YearPageContent">
-    <ol type="1">
-        <li>Each site university works with industry members to propose research topics</li>
-        <li>Fall Meeting</li>
-        <ul type="disc">
-            <li>Reports from previous year reviewed</li>
-            <li>Proposal presentations by faculty members</li>
-            <li>Industry Advisory Board Meeting</li>
-        </ul>
-        <li>Awards Made</li>
-        <li>Funded projects</li>
-        <li>Work begins January 1</li>
-        <li>Spring Symposium</li>
-        <ul type="disc">
-            <li>Progress Poster Session</li>
-            <li>1/2 Day Tutorial</li>
-            <li>Progress Reports - Results</li>
-            <li>New topics and opportunities identified</li>
-        </ul>
-    </ol>
-    </div>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="greenHeader">
+                    <h2>A Year In The Life of RoseHub</h2></div>
+                <img src="resources/img/Year.PNG" class="img-rounded img-responsive" height="400px" width="950px">
+            </div>
+        </div>
 
+        <div class="topbuffersmall"></div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="yearpagecontent">
+                    <ol type="1">
+                        <li>Each site university works with industry members to propose research topics</li>
+                        <li>Fall Meeting</li>
+                        <ul type="disc">
+                            <li>Reports from previous year reviewed</li>
+                            <li>Proposal presentations by faculty members</li>
+                            <li>Industry Advisory Board Meeting</li>
+                        </ul>
+                        <li>Awards Made</li>
+                        <li>Funded projects</li>
+                        <li>Work begins January 1</li>
+                        <li>Spring Symposium</li>
+                        <ul type="disc">
+                            <li>Progress Poster Session</li>
+                            <li>1/2 Day Tutorial</li>
+                            <li>Progress Reports - Results</li>
+                            <li>New topics and opportunities identified</li>
+                        </ul>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
