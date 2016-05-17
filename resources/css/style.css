@@ -76,5 +76,31 @@
 }
 
 #insideunccharlottebody{
-    background: url("https://www.flickr.com/photos/stakeyourclaim/6254719895/in/album-72157624615241082/");
+    background-color: #786D68;
+}
+
+#insideunccharlotteheader{
+    color: #FCB828;
+    margin-bottom: 40px;
+}
+
+.yellowverticalline{
+
+    border-left: medium solid #FCB828;
+
+    color: white;
+}
+
+.borderrightbuffers{
+    margin-left: 10px;
+}
+
+.middlecontent1{
+    margin-top: 25px;
+    color: #FCB828;
+}
+
+.middlecontent2{
+    margin-top: 43px;
+    color: #FCB828;
 }
