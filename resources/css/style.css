@@ -1,6 +1,5 @@
 .greenHeader{
     color: #005A2D;
-    margin-top: 90px;
 }
 
 .background-handshake{
@@ -112,7 +111,6 @@ body:after {
 #insideunccharlotteheader{
     color: #005A2D;
     margin-bottom: 40px;
-    margin-top: 100px;
 }
 
 .yellowverticalline{
@@ -162,14 +160,15 @@ h4{
     font-weight: 900;
 }
 
-#year{
-    margin-top: -50px;
-}
-
-#benefits{
-    margin-top: 100px;
-}
-
 .jumbotron{
     background-color: #C3C3C3;
+    padding-top: 0px;
 }
+
+.margin-top-none{
+    margin-top: 51px;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+
