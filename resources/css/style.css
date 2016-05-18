@@ -74,10 +74,14 @@
 #inside:after {
     content: "";
     background-image:url('../img/uncc.jpg');
-    background-repeat:repeat;
-    background-position:center;
-    background-attachment:fixed;
-    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding:0;
+    height:100%;
     opacity: 0.18;
     top: 0;
     left: 0;
@@ -117,6 +121,8 @@
     right: 0;
     position: absolute;
     z-index: -1;
+
+
 }
 
 
