@@ -254,3 +254,9 @@ footer{
     bottom: 0;
 
 }
+.navbar-brand{
+    padding: 0;
+}
+.logo-height{
+    height :51px;
+}
