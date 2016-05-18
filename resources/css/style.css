@@ -178,8 +178,17 @@ h4{
     color: #005A2D;
 }
 
-.insideuncol{
+.leftmarginnegative{
     margin-left: -28px;
 }
+
+#membership img{
+    padding-top: 15px;
+}
+
+.versmallbuffer{
+    margin-top: 25px;
+}
+
 
 >>>>>>> Stashed changes
