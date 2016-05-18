@@ -2,9 +2,23 @@
     color: #005A2D;
 }
 
-.background-handshake{
-    background: url('../img/hand.jpg');
-    background-repeat:no-repeat;
+
+
+.background-handshake:after{
+    content: "";
+    background-image:url('../img/hand.jpg');  !important;
+    background-repeat:repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    opacity: 0.18;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+
 }
 .fore-color-yellow{
     color:#ffcc00;
@@ -21,7 +35,7 @@
 
 
 
-body:after {
+#home:after {
     content: "";
     background-image:url('../img/uncc.jpg');
     background-repeat:repeat;
@@ -36,6 +50,56 @@ body:after {
     position: absolute;
     z-index: -1;
 }
+
+
+#inside:after {
+    content: "";
+    background-image:url('../img/uncc.jpg');
+    background-repeat:repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    opacity: 0.18;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#membership:after {
+    content: "";
+    background-image:url('../img/uncc.jpg');
+    background-repeat:repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    opacity: 0.18;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#year:after {
+    content: "";
+    background-image:url('../img/uncc.jpg');
+    background-repeat:repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    opacity: 0.18;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
 
 
 
@@ -182,4 +246,11 @@ h4{
 
 .versmallbuffer{
     margin-top: 25px;
+}
+
+footer{
+
+    position: absolute;
+    bottom: 0;
+
 }
