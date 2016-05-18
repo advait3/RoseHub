@@ -1,4 +1,4 @@
-#greenHeader{
+.greenHeader{
     color: #005A2D;
 }
 
@@ -16,9 +16,34 @@
     font-size: 80px;
     text-align: right;
 }
+
+
+
+
+
+body:after {
+    content: "";
+    background-image:url('../img/uncc.jpg');
+    background-repeat:repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
 .center-div{
     width: 60%;
     margin: 0 auto;
+
 }
 
 #greenHeader{
@@ -76,20 +101,20 @@
 }
 
 
+/*
 .insideunccharlotte-body{
-    background-color: #786D68 !important;
+    background-color: #786D68
 }
+*/
 
 #insideunccharlotteheader{
-    color: #FCB828;
+    color: #005A2D;
     margin-bottom: 40px;
 }
 
 .yellowverticalline{
 
-    border-left: medium solid #FCB828;
-
-    color: white;
+    border-left: medium solid #005A2D;
 }
 
 .borderrightbuffers{
@@ -98,12 +123,12 @@
 
 .middlecontent1{
     margin-top: 25px;
-    color: #FCB828;
+    color: #005A2D;
 }
 
 .middlecontent2 {
     margin-top: 43px;
-    color: #FCB828;
+    color: #005A2D;
 }
 .margin-left{
     margin-left: 20px;
@@ -124,4 +149,12 @@
 
 .tab.active {
     display:block;
+}
+
+p {
+    font-weight: 600;
+}
+
+h4{
+    font-weight: 900;
 }
