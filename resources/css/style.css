@@ -59,14 +59,9 @@ body:after {
 .verticalLine {
     border-left: medium solid gray;
     margin-right: 20px;
-
 }
 
-#missioncontent {
-    margin-left: 20px;
-}
-
-#focuscontent {
+.content {
     margin-left: 20px;
 }
 
@@ -78,9 +73,10 @@ body:after {
     margin-top: 20px;
 }
 
-.yearpagecontent{
+.font-style-green{
 
     font-family: "Century Gothic";
+    color: #005A2D;
 
 }
 
@@ -172,8 +168,6 @@ h4{
     margin-bottom: 0px;
 }
 
-<<<<<<< Updated upstream
-=======
 .makefontgreen{
     color: #005A2D;
 }
@@ -189,6 +183,3 @@ h4{
 .versmallbuffer{
     margin-top: 25px;
 }
-
-
->>>>>>> Stashed changes
