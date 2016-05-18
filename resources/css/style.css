@@ -28,7 +28,7 @@ body:after {
     background-position:center;
     background-attachment:fixed;
     background-size:cover;
-    opacity: 0.2;
+    opacity: 0.18;
     top: 0;
     left: 0;
     bottom: 0;
@@ -172,3 +172,14 @@ h4{
     margin-bottom: 0px;
 }
 
+<<<<<<< Updated upstream
+=======
+.makefontgreen{
+    color: #005A2D;
+}
+
+.insideuncol{
+    margin-left: -28px;
+}
+
+>>>>>>> Stashed changes
