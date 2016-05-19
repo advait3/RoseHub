@@ -1,5 +1,5 @@
 .greenHeader{
-    color: #005A2D;
+    color: black;
 }
 
 
@@ -110,20 +110,31 @@
 #year:after {
     content: "";
     background-image:url('../img/uncc.jpg');
-    background-repeat:repeat;
+    background-repeat: no-repeat;
     background-position:center;
-    background-attachment:fixed;
-    background-size:cover;
+    background-size: cover;
+
     opacity: 0.18;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute;
+    background-attachment:fixed;
     z-index: -1;
 
 
 }
+
+.navbar-inverse{
+    background-color: #004A22;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #3c763d;
+}
+
 
 
 
@@ -162,7 +173,7 @@
 .font-style-green{
 
     font-family: ""Times New Roman", Times, serif ";
-    color: #005A2D;
+    color: black;
     font-weight: 600;
 
 }
