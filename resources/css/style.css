@@ -161,7 +161,7 @@
 
 .font-style-green{
 
-    font-family: "Century Gothic";
+    font-family: ""Times New Roman", Times, serif ";
     color: #005A2D;
     font-weight: 600;
 
@@ -244,7 +244,7 @@ h4{
 }
 
 .jumbotron{
-    background-color: #C3C3C3;
+    background-color: #fff;
     padding-top: 0px;
 }
 
@@ -282,4 +282,5 @@ footer{
 }
 .logo-height{
     height :51px;
+    width: 150px;
 }
