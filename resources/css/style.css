@@ -30,6 +30,7 @@
 .navbar-inverse {
     background-image: url("../img/header-bg.png");
     border-color: transparent;
+
 }
 .navbar-inverse .navbar-nav>li>a {
     color: white;
@@ -85,7 +86,7 @@
 }
 
 .verticalLine {
-    border-left: medium solid gray;
+    border-left: medium solid #005A2D;
     margin-right: 20px;
 }
 
@@ -174,9 +175,9 @@
     display:block;
 }
 
-/*p {
-    font-weight: 600;
-}*/
+p {
+    text-align: justify;
+}
 
 /*h4{
     font-weight: 900;
