@@ -5,7 +5,7 @@
     .collapsing, .in {background-color: #005A2D; }
     div.navbar-header {height: 100px;}
     .collapsing ul li a, .in ul li a {color: #A0E22E!important;}
-    .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
+    .collapsing ul li a:hover, .in ul li a:hover {color: #C5BEBE!important;}
 
 }
 
@@ -19,7 +19,7 @@
 }
 
 .nav{
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 
