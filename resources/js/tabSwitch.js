@@ -1,6 +1,4 @@
-/**
- * Created by Komal on 5/17/2016.
- */
+
 jQuery(document).ready(function() {
     jQuery('.tabs .tab-links a').on('click', function(e)  {
         var currentAttrValue = jQuery(this).attr('href');

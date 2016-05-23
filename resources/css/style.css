@@ -1,25 +1,38 @@
 .greenHeader{
     color: black;
 }
-
-
-
-.background-handshake:after{
-    content: "";
-    background-image:url('../img/hand.jpg');  !important;
-    background-repeat:repeat;
-    background-position:center;
-    background-attachment:fixed;
-    background-size:cover;
-    opacity: 0.18;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
+@media only screen and (max-width: 766px) {
+    .collapsing, .in {background-color: #005A2D; }
+    div.navbar-header {height: 100px;}
+    .collapsing ul li a, .in ul li a {color: #A0E22E!important;}
+    .collapsing ul li a:hover, .in ul li a:hover {color: #f1f1f1!important;}
 
 }
+
+.navbar {
+    background-image: url("../img/header-logo.png");
+    height: 100px;
+    background-repeat: repeat;
+
+    
+
+}
+
+.nav{
+    margin-top: 20px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+
+
+/*.navbar li{
+    background-color: #005A2D;
+}*/
+
 .fore-color-yellow{
     color:#ffcc00;
 }
@@ -31,104 +44,9 @@
     text-align: right;
 }
 
-
-
-
-
-#home:after {
-    content: "";
-    background-image:url('../img/uncc.jpg');
-    background-repeat:repeat;
-    background-position:center;
-    background-attachment:fixed;
-    background-size:cover;
-    opacity: 0.18;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
-
-#leverage:after{
-
-    content: "";
-    background-image:url('../img/uncc.jpg');
-    background-repeat:repeat;
-    background-position:center;
-    background-attachment:fixed;
-    background-size:cover;
-    opacity: 0.18;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-
-
-}
-
-
-#inside:after {
-    content: "";
-    background-image:url('../img/uncc.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    padding:0;
-    height:100%;
-    opacity: 0.18;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
-
-#membership:after {
-    content: "";
-    background-image:url('../img/uncc.jpg');
-    background-repeat:repeat;
-    background-position:center;
-    background-attachment:fixed;
-    background-size:cover;
-    opacity: 0.18;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;
-}
-
-#year:after {
-    content: "";
-    background-image:url('../img/uncc.jpg');
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: cover;
-
-    opacity: 0.18;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    background-attachment:fixed;
-    z-index: -1;
-
-
-}
-
-.navbar-inverse{
+/*.navbar-inverse{
     background-color: #004A22;
-}
+}*/
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #fff;
@@ -136,7 +54,9 @@
 }
 
 
-
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:gray;
+}
 
 
 
@@ -172,9 +92,9 @@
 
 .font-style-green{
 
-    font-family: ""Times New Roman", Times, serif ";
+    font-family: Arial;
     color: black;
-    font-weight: 600;
+    /*font-weight: 600;*/
 
 }
 
@@ -203,7 +123,7 @@
 */
 
 #insideunccharlotteheader{
-    color: #005A2D;
+    /*color: #005A2D;*/
     margin-bottom: 40px;
 }
 
@@ -246,13 +166,13 @@
     display:block;
 }
 
-p {
+/*p {
     font-weight: 600;
-}
+}*/
 
-h4{
+/*h4{
     font-weight: 900;
-}
+}*/
 
 .jumbotron{
     background-color: #fff;
@@ -282,16 +202,36 @@ h4{
     margin-top: 25px;
 }
 
-footer{
-
-    position: absolute;
-    bottom: 0;
+#footer{
+    background-color: white;
+    width:100%;
+    height:100px;
+    position:absolute;
+    bottom:0;
+    left:0;
 
 }
-.navbar-brand{
-    padding: 0;
+
+.navbar-brand img{
+    padding-right: 20px;
+    float: left;
 }
 .logo-height{
-    height :51px;
+    height :inherit;
     width: 150px;
+}
+
+/*
+header{
+    margin-top: 40px;
+}
+*/
+
+#footercontent{
+    padding: 0;
+    margin: 0;
+}
+
+.topbuffermedium{
+    margin-top: 60px;
 }
